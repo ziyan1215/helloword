@@ -14,7 +14,7 @@ install:
 
 
 script:
-    - hugo -d blog
+    - hugo -d blog --buildFuture
     - echo 'Hugo build done!'
 after_success:
     - git config --global user.email "xuziyanmiss@gmail.com"
