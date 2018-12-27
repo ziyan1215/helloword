@@ -13,7 +13,7 @@ script:
     - echo 'Build done!'
 after_success:
     - git config --global user.email "xuziyanmiss@gmail.com"
-    - git config --global user.name "XuziYan"
+    - git config --global user.name "ziyan1215"
     - git clone https://${ACCESS_TOKEN}@github.com:ziyan1215/xuziyan.ga.git container
     - rm -rf container/*
     - cp -r public/* container 
