@@ -1,0 +1,56 @@
+baseURL : "https://xuziyan.ga/"
+languageCode : "zh"
+title : "XuziYan"
+theme : "hugo-cactus-dark"
+permalinks:
+  archive: archive/:slug/
+params:
+  Author : XuziYan
+  subtitle: XuziYan
+  description: XuziYan
+  keywords: [XuziYan,web前端博客,性能优化,网页制作,前端,js,html5,css,node.js]
+  customize:
+      gravatar:
+          email: 
+      logo:
+          enabled: true
+          width: 50
+          height: 50
+          url: /images/logo2.png
+          gravatar: false
+      favicon: 
+        # eg. generate with http://realfavicongenerator.net/
+        desktop:
+          url: /images/favicon.ico
+          gravatar: false
+        android:
+          url: /images/favicon-192x192.png
+          gravator: false
+        apple:
+          url: /images/favicon-192x192.png
+          gravator: false
+      social_links:
+          github: 
+        #   weibo: http://weibo.com/u/1967233520
+  # RSS
+  rss: false
+
+  # Plugins
+  plugins:
+      disqus_shortname: xuzi # Disqus Comments Shortname
+
+  # Miscellaneous
+  miscellaneous:
+      open_graph: # see http://ogp.me
+          fb_app_id:
+          fb_admins:
+          twitter_id:
+          google_plus:
+
+sitemap:
+    changefreq: weekly
+    filename: sitemap.xml
+    priority: 0.5
+
+outputs:
+    home: [ "HTML", "RSS", "JSON"]

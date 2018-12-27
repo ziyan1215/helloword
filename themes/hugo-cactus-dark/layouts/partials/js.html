@@ -1,0 +1,77 @@
+
+<script src="{{ .Site.BaseURL }}lib/justified-gallery/jquery.justifiedGallery.min.js"></script>
+<script src="{{ .Site.BaseURL }}lib/typed.js"></script>
+<script src="{{ .Site.BaseURL }}js/main.js"></script>
+{{ range .Site.Params.customJS }}
+<script src="{{ $.Site.BaseURL }}{{ . }}"></script>
+{{ end }}
+
+{{ if .Site.Params.enableGoogleAnalytics }}
+  {{ template "_internal/google_analytics.html" . }}
+{{ end }}
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src=""></script>
+<script>
+(function(){
+  if(location.host!=='alili.tech')return;
+  var ga = document.createElement('script');
+  var curProtocol = window.location.protocol.split(':')[0];
+  ga.src = 'https://www.googletagmanager.com/gtag/js?id=UA-129382678-1';       
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(ga, s);
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-129382678-1');
+})()
+</script>
+
+
+  <script>
+  (function(){
+    if(location.host!=='alili.tech')return;
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+      }
+      else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+  })();
+  </script>
+
+<!-- 360 -->
+  <!-- <script>
+    (function(){
+      if(location.host!=='alili.tech')return;
+      var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?05520debdbedd780ba345d83b7d5e6f4":"https://jspassport.ssl.qhimg.com/11.0.1.js?05520debdbedd780ba345d83b7d5e6f4";
+      document.write('<script src="' + src + '" id="sozz"><\/script>');
+      })();
+ </script> -->
+
+<!-- <script async src="/js/jquery.min.js"></script> -->
+
+<!-- <script src="https://c.mipcdn.com/static/v1/mip.js"></script> -->
+
+<!-- 阅读量计数 -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<script>
+  if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+          navigator.serviceWorker
+              .register('/sw.js')
+              .then(registration => {
+                  console.log('SW registered: ', registration);
+              })
+              .catch(registrationError => {
+                  console.log('SW registration failed: ', registrationError);
+              });
+      });
+  }
+  </script>
