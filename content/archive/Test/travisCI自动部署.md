@@ -1,8 +1,9 @@
 ---
-title: travisCI自动部署.md
-tags: [git]
-keywords: [git,博客,迁移]
-date: 2018-12-27 15:34:25
+title: travisCI自动部署
+slug: '23101033'
+keywords: git,博客,迁移
+date: 2018-12-26 15:34:25
+tags: [Test]
 ---
 
 
