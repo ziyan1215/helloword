@@ -1,9 +1,9 @@
 ---
-title: 记录一下这次博客的搭建
-tags: [Hugo]
-slug: obvozmd3
-keywords: [Hugo,博客,迁移]
-date: 2018-12-27 16:14:25
+title: "搭建博客hugo"
+tags: []
+slug: 2018-12-28T01:17:47+08:00
+keywords: []
+date: 2018-12-28T01:17:47+08:00
 ---
 
 最终还是选了github page
