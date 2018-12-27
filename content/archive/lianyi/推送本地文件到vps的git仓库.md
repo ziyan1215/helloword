@@ -1,6 +1,6 @@
 ---
 title: git推送到vps
-tags: [git]
+tags: [lianyi]
 keywords: [git,博客,迁移]
 date: 2018-12-18 16:14:25
 ---
