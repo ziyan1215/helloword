@@ -1,5 +1,5 @@
 {
-  "name": "alili.tech",
+  "name": "XuziYan",
   "version": "1.0.0",
   "description": "Blog",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Fantasy9527/alili.tech.git"
+    "url": "git+https://github.com/ziyan1215/helloword.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Fantasy9527/alili.tech/issues"
+    "url": "https://github.com/ziyan1215/helloword/issues"
   },
-  "homepage": "https://github.com/Fantasy9527/alili.tech#readme",
+  "homepage": "https://github.com/ziyan1215/helloword#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "workbox-build": "^3.6.3"
