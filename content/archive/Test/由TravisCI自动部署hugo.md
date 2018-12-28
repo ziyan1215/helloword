@@ -4,6 +4,7 @@ tags: []
 slug: 2018-12-28T01:19:17+08:00
 keywords: []
 date: 2018-12-28T01:19:17+08:00
+hidden: true
 ---
 # #步骤
 通过Travis CI 自动部署
