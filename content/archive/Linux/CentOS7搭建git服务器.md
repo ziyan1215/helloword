@@ -1,8 +1,8 @@
 ---
 title: "CentOS7搭建git服务器"
-tags: []
+tags: [Linux]
 slug: 1545974928
-keywords: []
+keywords: [Linux]
 date: 2018-12-28 13:28:48
 ---
 # 安装Git

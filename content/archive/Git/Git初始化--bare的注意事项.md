@@ -1,8 +1,8 @@
 ---
 title: "git init与git init --bare demo.git的区别"
-tags: []
+tags: [Git]
 slug: 1545973462
-keywords: []
+keywords: [Git,git init]
 date: 2018-12-28 13:04:22
 ---
 # 用法与区别
