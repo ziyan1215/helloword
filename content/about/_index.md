@@ -29,7 +29,7 @@ hidden : true
 
 # 微信号
 
-![微信号](http://xuziyan.ga/qr_tips.png)
+![微信号](https://xuziyan.ga/qr_tips.gif)
 
 # 
 
