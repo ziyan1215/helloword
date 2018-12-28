@@ -30,8 +30,8 @@ params:
           url: /images/favicon-192x192.png
           gravator: false
       social_links:
-          github: 
-        #   weibo: http://weibo.com/u/1967233520
+          # github: 
+          envelope: mailto:xuziyanmiss@gmail.com?subject=FromBlog&body=hello:%0d%0a
   # RSS
   rss: false
 
