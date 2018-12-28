@@ -1,6 +1,6 @@
 ---
 title: About Me
-date: 2016-05-27T14:31:51.000Z
+date: 2018-12-28 11:22:41
 hidden : true
 ---
 # Test
@@ -18,7 +18,6 @@ hidden : true
 
 # 个人信息
 
- - 
  - 职业: 
  - 城市：
 
@@ -30,7 +29,7 @@ hidden : true
 
 # 微信号
 
-![微信公众号](http://localhost:1313/qr_tips.png)
+![微信号](http://xuziyan.ga/qr_tips.png)
 
 # 
 

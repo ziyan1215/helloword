@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 tags: []
-slug: {{ .Date }}
+slug: {{ now.Unix}}
 keywords: []
-date: {{ .Date }}
+date: {{now.Format "2006-01-02 15:04:05"}}
 ---

@@ -5,10 +5,10 @@ const xml2js = require('xml2js')
 const workbox = require('workbox-build');
 const parser = new xml2js.Parser();
 const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
-
-var xz_appid = '1613049289050283';
-var xz_token = 'PEQAd9p3kMBAzNjY';
-var baidu_token= 'QsL3LjB4I2GLWGbj' 
+//要注册百度熊掌号
+//var xz_appid = '1613049289050283';
+//var xz_token = 'PEQAd9p3kMBAzNjY';
+//var baidu_token= 'QsL3LjB4I2GLWGbj' 
 var urlCount = 70;
 
 gulp.task('minify', () => {
