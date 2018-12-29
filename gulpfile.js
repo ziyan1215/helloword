@@ -6,9 +6,9 @@ const workbox = require('workbox-build');
 const parser = new xml2js.Parser();
 const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 //要注册百度熊掌号
-//var xz_appid = '1613049289050283';
-//var xz_token = 'PEQAd9p3kMBAzNjY';
-//var baidu_token= 'QsL3LjB4I2GLWGbj' 
+var xz_appid = '1621056720407734';
+var xz_token = 'ostkkCEQYmjpSwrt';
+var baidu_token= 'JcQntdRecDgY7ciM' //百度站长的token
 var urlCount = 70;
 
 gulp.task('minify', () => {
@@ -46,14 +46,14 @@ function urlSubmit(urls) {
     // 历史提交
     var history_target = "http://data.zz.baidu.com/urls?appid="+xz_appid+"&token="+xz_token+"&type=batch"
 
-    // 百度站长
-    var baidu_target = "http://data.zz.baidu.com/urls?site=https://alili.tech&token="+baidu_token
+    // 百度站长（done2018年12月29日 14:36:21）
+    var baidu_target = "http://data.zz.baidu.com/urls?site=https://xuziyan.ga&token="+baidu_token
 
     // MIP
-    var MIP_target = "http://data.zz.baidu.com/urls?site=https://alili.tech&token=QsL3LjB4I2GLWGbj&type=mip"
+    var MIP_target = "http://data.zz.baidu.com/urls?site=https://xuziyan.ga&token=JcQntdRecDgY7ciM&type=mip"
 
     // AMP
-    var AMP_target = "http://data.zz.baidu.com/urls?site=https://alili.tech&token=QsL3LjB4I2GLWGbj&type=amp"
+    var AMP_target = "http://data.zz.baidu.com/urls?site=https://xuziyan.ga&token=JcQntdRecDgY7ciM&type=amp"
 
     // 最新url,看熊掌号情况而定
     urls = urls.map(item=>item.loc[0])
