@@ -9,7 +9,7 @@ const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 var xz_appid = '1621056720407734';
 var xz_token = 'ostkkCEQYmjpSwrt';
 var baidu_token= 'JcQntdRecDgY7ciM' //百度站长的token
-var urlCount = 70;
+var urlCount = 9;
 
 gulp.task('minify', () => {
     return gulp.src('public/**/*.html')
