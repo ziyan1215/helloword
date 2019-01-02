@@ -1,5 +1,5 @@
 ---
-title: "GIT常用命令"
+title: "Git常用命令"
 tags: [Git]
 slug: 1545969891
 keywords: [Git]
@@ -80,9 +80,9 @@ Git鼓励大量使用分支：
 合并某分支到当前分支：git merge <name>
 
 删除分支：git branch -d <name>
-#更新本地的远程分支
+## 更新本地的远程分支
 git fetch origin
-#本地与远处的差集（显示远程有而本地没有的commit信息）
+# 本地与远处的差集（显示远程有而本地没有的commit信息）
 git log master..origin/master
 #统计文件的改动
 git diff --stat master origin/master
