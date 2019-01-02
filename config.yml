@@ -35,6 +35,7 @@ params:
   # RSS
   rss: false
 
+ # highlight: agate.styl 改用hightlight.js实现
   # Plugins
   plugins:
       disqus_shortname: xuzi # Disqus Comments Shortname
