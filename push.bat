@@ -1,4 +1,4 @@
-echo off
+@echo off
 set dd=%date:~8,2%
 set mm=%date:~5,2%
 set yy=%date:~0,4%
