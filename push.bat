@@ -9,3 +9,4 @@ set Thh=%Thh: =0%
 git add .
 git commit -m "自动提交："%yy%-%mm%-%dd%_%Thh%"："%Tmm%"："%Tss%
 git push origin master
+pause
