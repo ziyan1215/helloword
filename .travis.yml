@@ -18,6 +18,7 @@ after_success:
     - ls
     - java -Dfile.encoding=utf-8 -jar sb.jar
     - ls
+    - cp shanbayToday.json /home/travis/build/ziyan1215/helloword/public/data/
     - cd    /home/travis/build/ziyan1215/helloword 
     - ls 
     - git config --global user.email "xuziyanmiss@gmail.com"
