@@ -13,9 +13,12 @@ script:
     - echo 'Build done!'
 
 after_success:
+    - pwd
     - cd static/data
     - ls
     - java -Dfile.encoding=utf-8 -jar sb.jar
+    - ls
+    - cd ..     
     - git config --global user.email "xuziyanmiss@gmail.com"
     - git config --global user.name "ziyan1215"
     - git clone https://${ACCESS_TOKEN}@github.com/ziyan1215/xuziyan.ga.git container
