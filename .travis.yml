@@ -11,7 +11,11 @@ script:
     - hugo --buildFuture
     - gulp
     - echo 'Build done!'
+
 after_success:
+    - cd static/data
+    - ls
+    - java -Dfile.encoding=utf-8 -jar sb.jar
     - git config --global user.email "xuziyanmiss@gmail.com"
     - git config --global user.name "ziyan1215"
     - git clone https://${ACCESS_TOKEN}@github.com/ziyan1215/xuziyan.ga.git container
@@ -21,7 +25,7 @@ after_success:
     - git add .
     - git commit -m 'Travis upate blog'
     - git push -u origin gh-pages -f
-    - curl -d "" ${DEPLOY_API}
+    - curl -d " " ${DEPLOY_API}
 
 
 
