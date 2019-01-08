@@ -1,6 +1,6 @@
 ---
 title: "Jar包在CMD运行后乱码"
-tags: [JAVA]
+tags: [Java]
 slug: 1546400558
 keywords: [Jar包在CMD运行后乱码]
 date: 2019-01-02 11:42:38

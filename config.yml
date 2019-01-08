@@ -30,8 +30,8 @@ params:
           url: /images/favicon-192x192.png
           gravator: false
       social_links:
-          # github: 
-          envelope: mailto:xuziyanmiss@gmail.com?subject=FromBlog&body=hello:%0d%0a
+           github: https://github.com/ziyan1215
+         # envelope: mailto:xuziyanmiss@gmail.com?subject=FromBlog&body=hello:%0d%0a
   # RSS
   rss: false
 

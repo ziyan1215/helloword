@@ -33,7 +33,7 @@
         {{$count = add $count 1}}
         {{ if lt $count 10 }}
         <li class="post-item">
-            <div class="meta">
+            <div class="meta">                                                          <!--主页时间格式 2006-01-02 15:04:05-->
                 <time datetime='{{ .Date.Format "2006-01-02" }}' itemprop="datePublished">{{ .Date.Format "2006-01-02"}}</time>
             </div>
             <span> <a href='{{ .Permalink }}'>{{ .Title }}</a></span>

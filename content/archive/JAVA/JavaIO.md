@@ -1,6 +1,6 @@
 ---
 title: "JavaIO"
-tags: []
+tags: [Java]
 slug: 1546396761
 keywords: []
 date: 2019-01-02 10:39:21
