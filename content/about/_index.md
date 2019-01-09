@@ -3,24 +3,18 @@ title: About Me
 date: 2018-12-28 11:22:41
 hidden : true
 ---
-# Log
-
-## Time
-
-- [x] plan 
-- [x] build
-- [x] test
-- [ ] writing
 
 
 
-![gif](https://xuziyan.ga/qr_tips.gif)
 
+
+{{< echarts height="400" >}} {"textStyle":{"color":"#fff"},"title":{"text":"2018年11月国内浏览器数据统计","subtext":"浏览器数据分析","x":"center","textStyle":{"color":"#fff"}},"tooltip":{"trigger":"item","formatter":"{a} 
+{b} : {c} ({d}%)"},"legend":{"type":"scroll","orient":"vertical","right":10,"top":120,"bottom":20,"data":["Chrome","IE 9.0","IE 11.0","QQ","IE 8.0","2345","搜狗高速","Firefox","Safari","其他"],"textStyle":{"color":"#fff"}},"series":[{"name":"浏览器用户比例","type":"pie","radius":"55%","center":["50%","60%"],"data":[{"name":"Chrome","value":46.88},{"name":"IE 9.0","value":7.4},{"name":"IE 11.0","value":6.21},{"name":"QQ","value":5.75},{"name":"IE 8.0","value":5.74},{"name":"2345","value":5.68},{"name":"搜狗高速","value":4.74},{"name":"Firefox","value":2.54},{"name":"Safari","value":2.48},{"name":"其他","value":12.59}],"itemStyle":{"emphasis":{"shadowBlur":10,"shadowOffsetX":0,"shadowColor":"rgba(0, 0, 0, 0.5)"}}}]} {{< /echarts >}}
 
 
 
 # 留言板
-<iframe src="http://tianqi.2345.com/plugin/widget/index.htm?s=3&z=3&t=1&v=0&d=3&bd=0&k=&f=&q=1&e=1&a=1&c=54511&w=180&h=36&align=left" allowtransparency="true"  frameborder="0" width="180" height="36" scrolling="no"> </iframe>
+
 
 
 
