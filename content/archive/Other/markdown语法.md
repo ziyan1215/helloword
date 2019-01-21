@@ -26,6 +26,17 @@ draft: true
 - [ ] 待办事项2
 
 
+===
+# 序号
+
+- xuhao1
+- xuhao2
+  - xuhao21
+
+1. 标题1
+2. 标题2
+  1. cs 
+
 标题
 ======
 副标题
@@ -85,6 +96,9 @@ export  $initHighlight;
 
 ## 图片
 ![Tux, the Linux mascot](http://localhost:1313/qr_tips.png)
+![图片](http://localhost:1313/images/Clip_20190121_162904.jpg)
+
+![图片](https://xuziyan.ga/images/Clip_20190121_162904.jpg)
 
 # 留言板
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=528478901&auto=1&height=66"></iframe>
