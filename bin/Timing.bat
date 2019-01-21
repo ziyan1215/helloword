@@ -6,10 +6,10 @@ set Tmm=%TIME:~3,2%
 set Thh=%TIME:~0,2%
 set Thh=%Thh: =0%
 git pull origin master
-echo |set /p="自动更新："%yy%-%mm%-%dd%_%Thh%":"%Tmm%":"%Tss%"" >> log.txt
+echo |set /p="auto update json file："%yy%-%mm%-%dd%_%Thh%":"%Tmm%":"%Tss%"" >> log.txt
 echo. >> log.txt
 git add .
-git commit -m "定时任务更新每日一句"
+git commit -m "auto update json file"
 git push origin master 
 
 
