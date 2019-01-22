@@ -5,7 +5,7 @@ slug: 1545974550
 keywords: [Linux]
 date: 2018-12-28 13:22:30
 ---
-
+>多用 `--help`帮助命令
 # 常用命令
 
 ## 查找文件
@@ -83,4 +83,19 @@ kernel.pid_max = 32768
 
 >sysctl -p  （设置完后要重启）
 
+## tail命令
+`linux tail`命令用途是依照要求将指定的文件的最后部分输出到标准设备
 
+## top -i 查看多少进程在运行状态
+
+``` bash
+[root@vultr bin]# top -i
+top - 11:17:09 up 38 days, 21:36,  1 user,  load average: 0.00, 0.00, 0.00
+Tasks:  77 total,   2 running,  42 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.3 sy,  0.0 ni, 99.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :   492880 total,    15812 free,   118152 used,   358916 buff/cache
+KiB Swap:        0 total,        0 free,        0 used.   317596 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND                                      
+27240 root      20   0  161892   4336   3736 R  0.3  0.9   0:00.06 top    
+```
