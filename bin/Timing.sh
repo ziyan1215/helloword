@@ -1,5 +1,6 @@
 #!/bin/sh
 echo "begin..."
+cd /opt/blog/bin
 dateTime=`date +%Y-%m-%d,%H:%m:%s`
 days=7
 echo $dateTime
