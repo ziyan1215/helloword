@@ -1,0 +1,3 @@
+40 09 * * * /opt/blog/bin/Timing.sh
+* * * * * curl http://www.baidu.com
+
