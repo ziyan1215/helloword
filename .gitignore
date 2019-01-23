@@ -4,4 +4,4 @@ node_modules/
 hugoRun.bat
 public
 package-lock.json
-#/opt/blog/bin/Timing.sh
+/opt/blog/bin/Timing.sh
