@@ -3,13 +3,14 @@ dateTime=`date +%Y-%m-%d,%H:%m:%s`
 days=7
 echo $dateTime
 # bigin
-echo "去主目录更新git"
+echo "go index to update git"
 cd  /opt/blog
 echo "update from github..."
 git pull origin master
-cp /opt/blog/static/data/shanbayToday.json /opt/blog/static/data/shanbayToday$dateTime.json
+#没用了：cp /opt/blog/static/data/shanbayToday.json /opt/blog/static/data/shanbayToday$dateTime.json
 cd /opt/blog/bin
 echo "auto update json file:"$dateTime >> log.txt
+curl -L  "http://rest.shanbay.com/api/v2/quote/quotes/today/?_=1546075870467" >>/opt/blog/bin/getJson/$dateTime.json
 echo "去主目录sumit to github..."
 cd  /opt/blog
 git add .
