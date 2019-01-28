@@ -28,6 +28,16 @@ Administrator@LY-20170308GWTH MINGW64 /d/exercise (master)
 $ git config user.email
 xuziyanmiss@gmail.com
 ```
+# 配置ssh
+
+第一步：`ssh-keygen -t rsa -C "youremail@example.com"`  你需要把邮件地址换成你自己的邮件地址，然后一路回车，使用默认值即可
+
+在用户主目录里找到.ssh目录，里面有id_rsa和id_rsa.pub两个文件，这两个就是SSH Key的秘钥对，id_rsa是私钥，不能泄露出去，id_rsa.pub是公钥，可以放心地告诉任何人。
+
+第2步：登陆GitHub，打开“Account settings”，“SSH Keys”页面：
+
+然后，点“Add SSH Key”，填上任意Title，在Key文本框里粘贴id_rsa.pub文件的内容
+
 # 配置Git仓库
 通过git init命令把这个目录变成Git可以管理的仓库：
 
