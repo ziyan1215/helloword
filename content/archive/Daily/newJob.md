@@ -4,7 +4,7 @@ tags: [日常]
 slug: 1563203474
 keywords: [NewJob]
 date: 2019-07-15 23:11:14
-draft: true
+draft: false
 ---
 # 我的2019上半年总结
 >可以说是过得很惨。
