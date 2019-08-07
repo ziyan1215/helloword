@@ -4,7 +4,7 @@ tags: [Elasticsearch]
 slug: 1563796794
 keywords: [ES的嵌套字段]
 date: 2019-07-22 19:59:54
-draft: true
+draft: false
 ---
 
 ### 2.11 嵌套字段

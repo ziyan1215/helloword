@@ -4,7 +4,7 @@ tags: [Elasticsearch]
 slug: 1563681594
 keywords: [ES的聚合&复合查询]
 date: 2019-07-21 11:59:54
-draft: true
+draft: false
 ---
 
 ### 2.9 聚合查询
